@@ -10,9 +10,9 @@ import { RegisterComponent } from './components/register/register.component';
 import { HomeComponent } from './components/home/home.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ProfileComponent } from './components/profile/profile.component';
+
 import { AuthService } from "../services/auth.service";
 import {HttpClientModule,HttpHeaders} from '@angular/common/http';
-
 import { ValidateService } from "../services/validate.service";
 import { FlashMessagesModule } from "angular2-flash-messages";
 const appRoutes:Routes = [
